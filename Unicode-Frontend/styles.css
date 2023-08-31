@@ -1,0 +1,156 @@
+* {
+  margin-top: 0px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  background-color: rgb(248, 245, 241);
+}
+.webpage-title1 {
+ font-size: 60px; 
+ margin-top: 30px;
+ font-family: 'Arial-black';
+ color: rgb(233, 220, 220);
+ display: inline-block;
+ background-color: rgb(51, 53, 69);
+ padding-left: 230px;
+}
+.nav-bar {
+  padding-left: 30px;
+  padding-top: 35px;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  margin-right: 100px;
+  background-color: rgb(51, 53, 69);
+}
+.nav-bar a {
+  font-size: 20px;
+  padding: 10px;
+  text-decoration: none;
+  color: rgb(204, 204, 204);
+  text-align: center;
+  background-color: rgb(51, 53, 69);
+}
+
+.nav-bar a:hover {
+  color:white;
+}
+.img1 {
+  height: 250px;
+  width: 450px;
+}
+.img1 {
+  display: grid;
+  padding-top: 70px;
+  padding-left: 20px;
+}
+.title {
+  padding-left: 20px;
+  padding-top: 15px;
+  font-size: 22px;
+  font-weight: bold;
+}
+.title a {
+  text-decoration: none;
+  color: black;
+}
+.header1 {
+  margin-top: 20px;
+  padding-top: 5px;
+  margin-left: 20px;
+  display: block;
+  height: 80px;
+  width: 400px;
+  font-weight: bold;
+  font-size: 36px;
+  border: none;
+  background-color: rgb(233, 220, 220);
+  border-radius: 40px;
+  color: rgb(62, 62, 62);
+}
+.grid{
+  display:grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  padding-right: 40px;
+}
+.searchbox {  
+  float: left;  
+  padding-left: 100px;
+}       
+input[type=text] {  
+  padding: 6px;  
+  margin-top: 0px;  
+  font-size: 17px;    
+  border: grey; 
+  border-style: solid;
+  height: 20px;
+  width: 300px;
+  border-radius: 15px;
+  
+}  
+.button {   
+  padding: 8px;  
+  margin-top: 10px;  
+  margin-left: 10px;  
+  background: rgb(204, 204, 204);  
+  font-size: 15px;  
+  cursor: pointer;
+  height: 30px;
+  border: none;
+  border-radius: 12px;
+}  
+.button:hover {  
+  opacity: 0.8; 
+  transition: 0.4s; 
+}  
+.details {
+  padding-left: 20px;
+  padding-top: 10px;
+}   
+
+.haha{
+  padding-left: 480px;
+  background-color: rgb(51, 53, 69);
+}
+
+
+.first{
+  background-color: rgb(51, 53, 69);
+}
+
+.bottom {
+  background-color: rgb(51, 53, 69);
+  color: white;
+  text-align: center;
+  margin-top: 100px;
+  height: 215px;
+  display : grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.about-us{
+  padding-left: 25px;
+  padding-top: 25px;
+}
+.about-us, 
+.info{
+  background-color: rgb(51, 53, 69);
+}
+.about-us{
+  font-size: 20px;
+  margin-right: 25px;
+}
+
+.info {
+  margin-top: 30px; 
+}
+
+.info-1,
+.info-2,
+.info-3{
+  background-color: rgb(51, 53, 69);
+  text-align: left;
+  padding-left: 30px;
+  padding-top: 15px;
+  font-size: 18px;
+}
